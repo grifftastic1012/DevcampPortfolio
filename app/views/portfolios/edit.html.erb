@@ -1,7 +1,7 @@
-<h1>Creat a new Portfolio item</h1>
+<h1>Edit this Portfolio item</h1>
 
 <%= form_for(@portfolio_item) do |f| %>
-<div class="field">
+  <div class="field">
     <%= f.label :title %>
     <%= f.text_field :title %>
   </div>
@@ -17,6 +17,6 @@
     </div>
 
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit%>
   </div>
 <% end %>

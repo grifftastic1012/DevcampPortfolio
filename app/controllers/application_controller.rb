@@ -3,9 +3,6 @@ class ApplicationController < ActionController::Base
   include DeviseWhitelist 
   include SetSource
   include CurrentUserConcern
+  include DefaultPageContent
   
-  
-  def set_title
-    @page_title = "Devcamp Portfolio | My Portfolio Website"
-  end
 end

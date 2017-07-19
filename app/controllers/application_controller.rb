@@ -4,5 +4,11 @@ class ApplicationController < ActionController::Base
   include SetSource
   include CurrentUserConcern
   include DefaultPageContent
+
+  before_action :set_copyright
   
+ 
+  def set_copyright
+    @copyright = GriffinDevcampViewTool::Renderer.copyright 'Griffin Vriens', 'All rights reserved'
+  end
 end

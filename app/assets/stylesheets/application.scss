@@ -17,7 +17,6 @@ a:hover {
 .btn-secondary:focus {
   color: #333;
   text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #fff;
   border: .05rem solid #fff;
 }
 
@@ -29,7 +28,6 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
 }
 body {
   color: #fff;
@@ -187,4 +185,23 @@ body {
 .app-nav span {
   margin-left: 15px;
   margin-right: 15px;
+}
+
+#background {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  filter: blur(2px);
+}
+
+.app-footer {
+  color: white;
 }

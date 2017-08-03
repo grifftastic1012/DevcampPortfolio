@@ -200,8 +200,9 @@ body {
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: image-url('home_bg.png') no-repeat;
+  background: image-url('leaves-image.JPG') no-repeat;
   background-size: cover;
+  filter: blur(2px);
 }
 
 .app-footer {

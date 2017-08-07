@@ -1,3 +1,4 @@
+
 @import "bootstrap";
 @import "font-awesome";
 @import "gritter";
@@ -191,6 +192,7 @@ h6, .h6 {
   font-weight: 700;
 }
 
-.comment-main-color {
-  color:black;
+.blogcrumb a {
+  font-size: 1.25em;
+  margin: 0px 10px 0px 10px;
 }
